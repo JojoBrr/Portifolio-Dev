@@ -2,6 +2,74 @@
     display: grid;
 }
 
+.grid-flow-rows {
+    grid-auto-flow: row;
+}
+
 .grid-flow-columns {
     grid-auto-flow: column;
+}
+
+.grid-space {
+    justify-content: center;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+.title-lg {
+    font: var(--title-lg);
+    color: var(--bgray-100);
+}
+
+.title-md {
+    font: var(--title-md);
+}
+
+.title-sm {
+    font: var(--title-sm);
+}
+
+.paragraph {
+    font: var(--text-sm);
+    color: var(--bgray-300);
+}
+
+.subtitle {
+    font: var(--sub-font);
+    color: var(--bgray-200);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
+    color: var(--bgray-300);
+}
+
+.git-color {
+    color: var(--bgray-200);
+}
+
+.html-color {
+    color: var(--main-red);
+}
+
+.css-color {
+    color: var(--main-blue);
+}
+
+.java-color {
+    color: var(--main-yellow);
+}
+
+.react-color {
+    color: var(--main-blue);
+}
+
+.node-color {
+    color: var(--main-green);
 }

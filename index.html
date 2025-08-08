@@ -1,44 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- LIKS CSS/FONT -->
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/index.css">
-    <title>Meu Portifólio</title>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Portifólio</title>
+  
+  <!-- Links -->
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Style/index.css">
 
 </head>
+
 <body>
-    <header class="intro">
+ 
+  <main class="container">
         
-        <div class=grid>
-            <div>
-                <img src="assets/Images/Image.png" alt="">
-            </div>
+    <section id="intro">
+      
+      <div id="info">
 
-            <div>
-                <p>Hello World! Meu nome é <span>Martina Santos</span> e sou</p>
-                <h2>Desenvolvedora Fullstack</h2>
-                pTransformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.
-            </div>
+        <div id="header" class="grid grid-flow-rows">
+            
+          <div id="avatar">
+            <img src="assets/Images/Image.png" alt="foto de perfil">
+            <span><img src="assets/Icons/Code.svg" alt=""></span>
+          </div>
+            <p class="subtitle">Hello World! Meu nome é <spam class="html-color">Martina Santos</spam> e sou</p>
+            <h1 class="title-lg">Desenvolvedora Fullstack</h1>
+            <h4 class="text-sm">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da <br> minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</h4> 
 
-            <div>
-                <img src="assets/Icons/GitHub.svg" alt="">
-                <img src="assets/Icons/HTML.svg" alt="">
-                <img src="assets/Icons/CSS.svg" alt="">
-                <img src="assets/Icons/JavaScript.svg" alt="">
-                <img src="assets/Icons/Node.js.svg" alt="">
-            </div>
         </div>
 
-    </header>
+        <div id="footerhead" class="grid grid-flow-columns">
+          
+          <figcaption class="icons grid grid-flow-columns">
+            <span class="text-md"><img class="git-color"src="assets/Icons/GitHub.svg" alt="">GitHub</span>
+          </figcaption>
+
+          <figcaption class="icons grid grid-flow-columns">
+            <span class="text-md"><img src="assets/Icons/HTML.svg" alt="">HTML</span>
+          </figcaption>
+
+          <figcaption class="icons grid grid-flow-columns">
+            <span class="text-md"><img src="assets/Icons/CSS.svg" alt="">CSS</span>
+          </figcaption>
+
+          <figcaption class="icons grid grid-flow-columns">
+            <span class="text-md"><img src="assets/Icons/JavaScript.svg" alt="">JavaScript</span>
+          </figcaption>
+          
+          <figcaption class="icons grid grid-flow-columns">
+            <span class="text-md"><img src="assets/Icons/React.svg" alt="">React</span>
+          </figcaption>
+
+          <figcaption class="icons grid grid-flow-columns">
+            <span class="text-md"><img src="assets/Icons/Node.js.svg" alt="">Node.Js</span>
+          </figcaption>
+        </div>    
+
+      </div>
     
+    </section>
+
+  </main>
+
+
 </body>
 </html>
