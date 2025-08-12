@@ -1,0 +1,13 @@
+#projects {
+    background-color: var(--bgray-500);
+    padding: 120px;
+    padding-top: 72px;
+    box-sizing: border-box;
+}
+
+#project-info{
+      justify-items: center;
+}
+
+
+

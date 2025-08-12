@@ -14,8 +14,12 @@
     justify-content: center;
 }
 
-.gap-16{
+.gap-16 {
     gap: 16px;
+}
+
+.gap-8 {
+    gap: 8px;
 }
 
 .title-lg {
@@ -25,10 +29,12 @@
 
 .title-md {
     font: var(--title-md);
+    color: var(--bgray-200);
 }
 
 .title-sm {
     font: var(--title-sm);
+    color: var(--bgray-200);
 }
 
 .paragraph {

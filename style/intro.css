@@ -48,6 +48,7 @@
     border-radius: 20px;
     justify-content: center;
     gap: 16px;
+    letter-spacing: 0.95px;
     
     span {
         display: flex;
@@ -67,6 +68,12 @@
         }
 
     }
+}
+
+#arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 94px;
 }
 
 
