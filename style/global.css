@@ -5,19 +5,21 @@
 }
 
 :root {
-    /*FONTS*/
     
+    /*FONTS*/
+
     --font-asap: 'asap', sans-serif;
     --title-lg: 800 56px/120% var(--font-asap);
     --title-md: 800 24px/120% var(--font-asap);
     --title-sm: 800 16px/120% var(--font-asap);
 
-    --font-insonsolata: 'inconsolata', sans-serif;
-    --sub-font: 400 20px/120% var(--font-insonsolata)
-
-    --font-mavenpro: 'maven pro', sans-serif;
+    --font-mavenpro: 'mavenpro', sans-serif;
     --text-md: 400 16px/140% var(--font-mavenpro);
     --text-sm: 400 14px/140% var(--font-mavenpro);
+
+    --font-inconsolata: 'inconsolata', sans-serif; 
+    --sub-font: 400 20px/120% var(--font-inconsolata);
+   
     
     /*COLORS*/
     
@@ -40,7 +42,8 @@ body {
     background-color: var(--bgray-600);
 }
 
-spam {
-    color: var(--principal-red);
-}
 
+.container {
+    box-sizing: border-box;
+    padding: 120px;
+}

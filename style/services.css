@@ -1,0 +1,30 @@
+#content {
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+}
+
+#content-icons{
+    justify-content: center;
+    gap: 24px;
+    margin-top: 56px;    
+
+    #card-serv{
+        border: 2px solid var(--bgray-500);
+        border-radius: 12px;
+        width: 280px;
+        height: 185px;
+    }
+
+    #card-serv{
+        padding: 20px;
+
+        img {
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            margin-bottom: 8px;
+        }
+    }
+}

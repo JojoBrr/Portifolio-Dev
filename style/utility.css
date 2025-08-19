@@ -37,18 +37,19 @@
     color: var(--bgray-200);
 }
 
+.sub {
+    font: var(--sub-font);
+    color: var(--bgray-200);
+}
+
 .paragraph {
     font: var(--text-sm);
     color: var(--bgray-300);
 }
 
-.subtitle {
-    font: var(--sub-font);
-    color: var(--bgray-200);
-}
-
 .text-md {
     font: var(--text-md);
+    color: var(--bgray-100);
 }
 
 .text-sm {
