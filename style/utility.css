@@ -49,7 +49,7 @@
 
 .text-md {
     font: var(--text-md);
-    color: var(--bgray-100);
+    color: var(--bgray-200);
 }
 
 .text-sm {
